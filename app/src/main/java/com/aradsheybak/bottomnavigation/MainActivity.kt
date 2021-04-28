@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
     @BindView(R.id.iv_profile)
     lateinit var iv_profile: ImageView
 
-    private var previousItem : String = "home"
+    private var previousItem : String = ""
 
     @OnClick(R.id.iv_home)
     fun ivHomeClicked(){
